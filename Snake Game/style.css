@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.bg{
+    background: url("/img/bg.jpg");
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#board{
+    background:linear-gradient(rgb(190, 226, 190), rgb(195, 204, 66));
+    width: 90vmin;
+    height: 90vmin;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(18,1fr);
+    grid-template-rows: repeat(18,1fr) ;
+}
+.head{
+    background: red;
+}
+
+.food{
+    background: purple;
+}
